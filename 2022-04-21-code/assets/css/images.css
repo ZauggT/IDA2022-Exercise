@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Museo";
+  src: url("fonts/MuseoSans-500.otf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;800&display=swap");
+
+body {
+  font-family: "Museo";
+  font-size: 10vw;
+  background-color: rgba(121, 121, 121, 0.52);
+  /*  overflow: hidden; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  background-image: url(../images/bull.png),
+    linear-gradient(120deg, rgb(255, 0, 0, 0.2), rgb(215, 252, 68, 0.2));
+  background-size: 1.6vw;
+  min-height: 10000vh;
+  /* background-color: cornflowerblue; */
+  background-blend-mode: multiply;
+  margin-left: -10px;
+  margin-top: -20px;
+  margin-right: -10px;
+}
+
+img.bull1 {
+  width: 5vw;
+  opacity: 0;
+}
+img.bull2 {
+  width: 2.5vw;
+  opacity: 1;
+  image-orientation: 20deg;
+}
+.titel {
+  font-family: "Raleway", sans-serif;
+  margin-top: 30px;
+  position: var(100, 100);
+  position: fixed;
+  text-align: right;
+}
