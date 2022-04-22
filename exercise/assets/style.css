@@ -1,135 +1,150 @@
 body {
-  background: #33f;
+  background: rgb(219, 219, 255);
 }
 a {
-  color: rgb(224, 233, 233);
+  color: rgb(41, 45, 45);
   display: block;
   transition: all 1s;
 }
 /* MONTAG */
-a#montag {
-  font-size: 2rem;
+#montag {
+  font-size: 3rem;
   font-family: "Courier New", Courier, monospace;
   background-color: chartreuse;
   padding: 0.5 rem;
+  top: 200px;
+  left: 250px;
 }
-a#montag:visited {
+#montag:visited {
   color: coral;
   background-color: burlywood;
 }
-a#montag:hover {
+#montag:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
+
 /* ------ DIENSTAG ------ */
-a#dienstag {
-  font-size: 3rem;
+#dienstag {
+  font-size: 1rem;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(231, 174, 30);
   padding: 0.5 rem;
+  top: 1200px;
+  left: 250px;
 }
-a#dienstag:visited {
+#dienstag:visited {
   color: rgb(106, 255, 80);
   background-color: rgb(135, 222, 212);
 }
-a#dienstag:hover {
+#dienstag:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
 /*  ------ MITTWOCH ------  */
-a#mittwoch {
-  font-size: 4rem;
+#mittwoch {
+  font-size: 2rem;
   font-family: "Courier New", Courier, monospace;
-  background-color: rgb(0, 55, 255);
+  background-color: rgb(0, 255, 136);
   padding: 0.5 rem;
+  top: 2100px;
+  left: 250px;
 }
-a#mittwoch:visited {
+#mittwoch:visited {
   color: rgb(141, 80, 255);
   background-color: rgb(203, 222, 135);
 }
-a#mittwoch:hover {
+#mittwoch:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
 /*  ------ DONNERSTAG  ------ */
-a#donnerstag {
-  font-size: 3rem;
+#donnerstag {
+  font-size: 2rem;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(255, 0, 136);
   padding: 0.5 rem;
+  top: 2800px;
+  left: 250px;
 }
-a#donnerstag:visited {
+#donnerstag:visited {
   color: rgb(80, 255, 141);
   background-color: rgb(222, 135, 219);
 }
-a#donnerstag:hover {
+#donnerstag:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
 /* FREITAG */
-a#freitag {
-  font-size: 7rem;
+#freitag {
+  font-size: 4rem;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(221, 255, 0);
   padding: 0.5 rem;
+  top: 3800px;
+  left: 250px;
 }
-a#freitag:visited {
+#freitag:visited {
   color: rgb(75, 27, 133);
   background-color: rgb(197, 222, 135);
 }
-a#freitag:hover {
+#freitag:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
 /* SAMSTAG */
-a#samstag {
-  font-size: 3rem;
+#samstag {
+  font-size: 2rem;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(0, 221, 255);
   padding: 0.5 rem;
+  top: 4600px;
+  left: 250px;
 }
-a#samstag:visited {
+#samstag:visited {
   color: rgb(75, 133, 27);
   background-color: rgb(181, 135, 222);
 }
-a#samstag:hover {
+#samstag:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
 /* SONNTAG */
-a#sonntag {
-  font-size: 2rem;
+#sonntag {
+  font-size: 3rem;
   font-family: "Courier New", Courier, monospace;
   background-color: rgb(255, 0, 0);
   padding: 0.5 rem;
+  top: 5500px;
+  left: 250px;
 }
-a#sonntag:visited {
+#sonntag:visited {
   color: rgb(52, 27, 133);
   background-color: rgb(222, 170, 135);
 }
-a#sonntag:hover {
+#sonntag:hover {
   color: aliceblue;
   background-color: black;
-  transform: rotateX(-20deg) rotateY(-30deg) rotateZ(-40deg) perspective(700px)
-    scale(2);
+  transform: rotateX(-10deg) rotateY(-20deg) rotateZ(-20deg) perspective(700px)
+    scale(1.5);
   transform-origin: center center;
 }
 
@@ -137,8 +152,20 @@ a#sonntag:hover {
   display: block;
 }
 .menu {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
   position: fixed;
   width: max-content;
-  left: 100px;
-  top: 100px;
+  left: 10px;
+  top: 400px;
+  color: black;
+}
+.day {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  transition: all 0.3s;
+}
+html {
+  scroll-behavior: smooth;
 }
