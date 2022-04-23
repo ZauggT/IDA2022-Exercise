@@ -1,0 +1,14 @@
+body {
+  background: rgb(219, 219, 255);
+}
+.zeit {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+h1 {
+  font-size: 4rem;
+  font-family: "Courier New", Courier, monospace;
+  left: 200px;
+}
