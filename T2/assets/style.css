@@ -4,7 +4,9 @@ body {
 .zeit {
   width: max-content;
   font-family: "Courier New", Courier, monospace;
-  font-size: 2rem;
+  font-size: 3rem;
+  left: 300px;
+  padding-left: 600px;
   text-align: center;
 }
 .zeit:hover {
@@ -15,4 +17,5 @@ h1 {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
   width: max-content;
+  padding-left: 300px;
 }
