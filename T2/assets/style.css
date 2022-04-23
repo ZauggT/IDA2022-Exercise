@@ -2,13 +2,17 @@ body {
   background: rgb(219, 219, 255);
 }
 .zeit {
+  width: max-content;
   font-family: "Courier New", Courier, monospace;
   font-size: 2rem;
   text-align: center;
-  padding: 1rem;
+}
+.zeit:hover {
+  color: blueviolet;
 }
 h1 {
   font-size: 4rem;
   font-family: "Courier New", Courier, monospace;
-  left: 200px;
+  text-align: center;
+  width: max-content;
 }
