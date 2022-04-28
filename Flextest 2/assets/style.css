@@ -1,0 +1,65 @@
+:root {
+  --red: rgb(151, 26, 26);
+  --green: rgb(87, 227, 79);
+  --blue: rgb(131, 188, 241);
+  --purple: rgb(219, 65, 188);
+  --pink: rgb(255, 96, 96);
+  --yellow: rgb(216, 240, 92);
+  --orange: rgb(247, 117, 36);
+  --white: rgb(229, 229, 229);
+  --black: rgb(29, 28, 28);
+  --gray: rgb(132, 127, 127);
+  --backgound: rgb(255, 255, 255);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.flex-container {
+  background-color: var(--backgound);
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-item {
+}
+
+.red-bg {
+  background-color: var(--red);
+}
+
+.green-bg {
+  background-color: var(--green);
+}
+
+.blue-bg {
+  background-color: var(--blue);
+}
+
+.purple-bg {
+  background-color: var(--purple);
+}
+
+.pink-bg {
+  background-color: var(--pink);
+}
+
+.yellow-bg {
+  background-color: var(--yellow);
+}
+
+.orange-bg {
+  background-color: var(--orange);
+}
+
+.white-bg {
+  background-color: var(--white);
+}
+
+.black-bg {
+  background-color: var(--black);
+}
+
+.gray-bg {
+  background-color: var(--gray);
+}
