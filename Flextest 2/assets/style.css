@@ -16,16 +16,32 @@ body {
   padding: 0;
 }
 .flex-container {
+  /* flex macht aui ihne reihe defaultmässig */
+  display: flex;
+  /* flex-direction chame wächsle uf collumn ; */
+  /* flex-direction: column; */
+  justify-content: space-evenly;
   background-color: var(--backgound);
+  align-items: center;
   width: 100vw;
   height: 100vh;
+  margin-top: 20px;
 }
 
 .flex-item {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  width: 120px;
+  height: max-content;
+  border-radius: 5px;
+}
+.flex-item:hover {
+  transform: scale(1.2);
 }
 
 .red-bg {
   background-color: var(--red);
+  align-self: flex-start;
 }
 
 .green-bg {
