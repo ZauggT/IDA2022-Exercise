@@ -10,6 +10,7 @@
   --black: rgb(29, 28, 28);
   --gray: rgb(132, 127, 127);
   --backgound: rgb(255, 255, 255);
+  --length: 600px;
 }
 body {
   margin: 0;
@@ -23,8 +24,8 @@ body {
   justify-content: space-evenly;
   background-color: var(--backgound);
   align-items: center;
-  width: 600px;
-  /*  width: 100vw; */
+  /*  width: 600px; */
+  width: 100vw;
   height: 100vh;
   margin-top: 20px;
   flex-wrap: wrap;
@@ -34,56 +35,74 @@ body {
 .flex-item {
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  width: 300px;
-  height: max-content;
+  /* height: max-content; */
   border-radius: 5px;
+  max-width: 200px;
+  height: 100px;
+  align-content: flex-end;
 }
 .flex-item:hover {
   transform: scale(1.1);
 }
 
+img {
+  max-width: 50%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .red-bg {
   background-color: var(--red);
+  width: var(--length);
   /* align-self: flex-start; */
   /* order: 2; */
 }
 
 .green-bg {
   background-color: var(--green);
+  width: var(--length);
   /* order: 0; */
   /*  flex-grow: 2; */
 }
 
 .blue-bg {
   background-color: var(--blue);
+  width: var(--length);
   /* order: 3; */
   /*  flex-grow: 4; */
 }
 
 .purple-bg {
   background-color: var(--purple);
+  width: var(--length);
 }
 
 .pink-bg {
   background-color: var(--pink);
+  width: var(--length);
 }
 
 .yellow-bg {
   background-color: var(--yellow);
+  width: var(--length);
 }
 
 .orange-bg {
   background-color: var(--orange);
+  width: var(--length);
 }
 
 .white-bg {
   background-color: var(--white);
+  width: var(--length);
 }
 
 .black-bg {
   background-color: var(--black);
+  width: var(--length);
 }
 
 .gray-bg {
   background-color: var(--gray);
+  width: var(--length);
 }
