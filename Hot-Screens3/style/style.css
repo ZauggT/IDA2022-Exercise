@@ -1,0 +1,69 @@
+* {
+  color: white;
+  background-color: #212121;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.container {
+  height: 250px;
+  max-width: 100%;
+  background-color: #212121;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0%;
+  align-content: inherit;
+}
+
+.titlecontainer {
+  height: 120px;
+  max-width: 100%;
+  background-color: #212121;
+  display: flex;
+  margin-left: 0%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+}
+
+img {
+  /* width: 0.535%; */
+  /* width: 1%; */
+  height: 100%;
+}
+
+.condensedimage:hover {
+  width: 400px;
+  transition: 0.2s;
+}
+
+.condensedimage {
+  transition: 0.2s;
+}
+
+.title {
+  width: 0.535%;
+  height: 100%;
+}
+
+.title:hover {
+  width: 400px;
+  transition: 0.2s;
+}
+
+body {
+  width: fit-content;
+  height: fit-content;
+  overflow-x: scroll;
+  margin: 0px;
+}
+
+html {
+  margin: 0 0 0 0px;
+}
+
+p {
+  font-size: 8pt;
+}
