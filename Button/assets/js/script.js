@@ -29,6 +29,7 @@ function neuesBild() {
   myImage.style.top = Math.random() * window.innerHeight + "px"; */
   document.body.appendChild(myImage);
   console.log(x, y);
+
   if (n % 10 == 0) {
     x = 0;
     y = y + 1;
