@@ -1,6 +1,10 @@
 .specialbutton {
+  margin-top: 200px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
   background-color: aqua;
   border-radius: 12px;
+  box-shadow: 0px 10px;
 }
 .specialbutton:hover {
   color: blueviolet;
@@ -8,7 +12,7 @@
 
 #element {
   position: absolute;
-  top: 200px;
+  top: 400px;
   left: 50px;
   width: 100px;
   height: 100px;
@@ -16,8 +20,7 @@
 }
 .random {
   position: relative;
-  color: black;
-  top: 200px;
+  top: 400px;
   left: 50px;
   width: 10px;
   height: 10px;
@@ -25,14 +28,14 @@
 }
 .bild {
   position: absolute;
-  top: 200px;
+  top: 400px;
   left: 200px;
 }
 body {
   width: 1920px;
   height: 1080px;
 }
-html {
+/* html {
   width: 1920px;
   height: 1080px;
-}
+} */
