@@ -1,0 +1,22 @@
+a {
+  display: flex;
+
+  margin: 10px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 3px;
+  color: azure;
+  background-color: crimson;
+  width: fit-content;
+  font-size: 2rem;
+}
+a:hover {
+  transform: scale(1.1) rotate(-5deg);
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem;
+}
+
+body {
+  background-color: darkslategray;
+}
