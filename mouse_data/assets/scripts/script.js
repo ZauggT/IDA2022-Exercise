@@ -1,5 +1,5 @@
 let mouse = [];
-let max = 500;
+let max = 1000;
 
 document.onmousemove = function (e) {
   let posX = e.clientX;
@@ -8,12 +8,12 @@ document.onmousemove = function (e) {
     x: posX,
     y: posY,
   };
-  if (mouse.length < max) {
-    mouse.push(object);
-  } else {
-    console.log("whoopa");
+  if (mouse.length > max) {
+    console.log("array is full");
+    mouse.shift();
   }
-
+  mouse.push(object);
+  //console.log(mouse);
   //console.log(posX, posY);
   //console.log(mouse);
 };
