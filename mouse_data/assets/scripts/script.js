@@ -40,3 +40,30 @@ function animate() {
     index = 0;
   }
 }
+let save_button = document.querySelector("#save-button");
+save_button.addEventListener("click", function () {
+  console.log("clicked");
+  let data = JSON.stringify(mouse);
+  let blob = new Blob([data], { type: "application/json" });
+  let url = URL.createObjectURL(blob);
+  let a = document.createElement("a");
+  a.href = url;
+  a.download = "mouse_movements" + Date.now().toString() + ".json";
+  a.click();
+  URL.revokeObjectURL(url);
+});
+
+// load JSON data
+let load_button = document.querySelector("#load-button");
+load_button.addEventListener("click", function () {
+  console.log("clicked");
+  let input = load_button.querySelector("input");
+  let file = input.files[0];
+  let reader = new FileReader();
+  reader.onload = (event) => {
+    let data = JSON.parse(event.target.result);
+    mouse = data;
+    console.log(mouse);
+  };
+  reader.readAsText(file);
+});

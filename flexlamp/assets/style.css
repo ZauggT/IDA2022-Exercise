@@ -1,20 +1,21 @@
 :root {
-  --red: rgb(151, 26, 26);
-  --green: rgb(87, 227, 79);
-  --blue: rgb(131, 188, 241);
-  --purple: rgb(219, 65, 188);
-  --pink: rgb(255, 96, 96);
-  --yellow: rgb(216, 240, 92);
-  --orange: rgb(247, 117, 36);
-  --white: rgb(229, 229, 229);
+  --red: rgba(151, 26, 26, 0.466);
+  --green: rgba(86, 227, 79, 0.486);
+  --blue: rgba(131, 188, 241, 0.438);
+  --purple: rgba(219, 65, 188, 0.425);
+  --pink: rgba(255, 96, 96, 0.438);
+  --yellow: rgba(215, 240, 92, 0.445);
+  --orange: rgba(247, 117, 36, 0.452);
+  --white: rgba(229, 229, 229, 0.445);
   --black: rgb(29, 28, 28);
-  --gray: rgb(82, 79, 79);
+  --gray: rgba(82, 79, 79, 0.459);
   --backgound: rgb(255, 255, 255);
   --length: 600px;
 }
 body {
   margin: 0;
   padding: 0;
+  background-color: darkslategray;
 }
 .flex-container {
   /* flex macht aui ihne reihe defaultmässig */
@@ -23,11 +24,11 @@ body {
   padding: 10px;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: var(--backgound);
+  background-color: darkslategray;
   align-items: flex-start;
   /*  width: 600px; */
-  width: 100vw;
-  height: 100vh;
+  width: 40%;
+  height: 80%;
   margin-top: 20px;
   flex-wrap: wrap;
   /* align-content: space-between; */
@@ -48,6 +49,11 @@ body {
   font-size: 1rem;
   font-style: oblique;
   color: azure;
+}
+.title2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5rem;
+  margin-left: 50px;
 }
 
 img {
