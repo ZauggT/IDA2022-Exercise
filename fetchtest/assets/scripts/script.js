@@ -29,3 +29,34 @@ function build_facts(data) {
     cat_facts_div.appendChild(cat_fact);
   }
 }
+
+function request_coffee() {
+  let base_url = "https://coffee.alexflipnote.dev";
+  let query = "/random.json";
+
+  fetch(base_url + query)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      build_coffee(data);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+}
+function build_coffee(data) {
+  console.log(data["file"]);
+  let coffee_div = document.querySelector(".coffee");
+  let coffee_img = document.createElement("img");
+  coffee_img.src = data["file"];
+  coffee_div.appendChild(coffee_img);
+}
+// Wait till Window is Loaded
+window.onload = function () {
+  let coffe_button = document.querySelector(".kafi");
+  console.log(coffe_button);
+  coffe_button.addEventListener("click", request_coffee);
+};
+
+//request_coffee();
