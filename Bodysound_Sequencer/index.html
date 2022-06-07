@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bodysound Sequencer</title>
+  <link rel="icon" type="image/png" sizes="174x174" href="/tone-js-tryout/Sketch5/assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Grotesk:wght@300;600&family=Space+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.40/Tone.js"
+    integrity="sha512-59wz3/QJMP1QgULLB5O08pqS8wIdlvK1iJaRZm6ESyRrUuxjdRrnKepXKbSTbjX3ZZZ19AbiCJZEaZN7Zm8OjQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="topNavigation">
+    <div id="smallGridButton" class="activeSmallGridButton"></div>
+    <div id="bigGridButton"></div>
+  </div>
+  <div id="sequencer" class="container sequencer">
+    <a id="clear-button">clear grid</a>
+  </div>
+  <div class="toggle-play">
+    <button id="play-button" class="play-button">Play</button>
+    <!-- <button class="play-button" id="randomize-button">randomize</button> -->
+    <div id="output"></div>
+  </div>
+  <div id="slider">speed<input id="bpm" type="range" min="50" max="220" step="1" value="120"></input></div>
+  <script type="module" src="assets/scripts/tone.js"></script>
+  <script type="text/javascript" src="assets/scripts/animation.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+  <div class="spacer"><a onclick=rollOut() id="about-button"><i class="fa">&#xf107;</i> behind the sounds</a></div>
+  <div id="behindthesounds">
+    <!-- <iframe width="500" height="500" src="assets/img/Bodysound-Sequencer02.mp4"> -->
+    </iframe>
+    <p class="description">The Bodysound Sequencer is a electronic instrument, based on sounds that we made with our bodies. The Mathematical strictness of electronic music meets the organic quality of bones, skin and muscles.</p>
+  </div>
+  <div></div>
+</body>
+
+</html>

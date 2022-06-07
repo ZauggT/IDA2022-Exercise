@@ -1,24 +1,24 @@
 a {
   display: flex;
   margin: 10px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Share Tech Mono', monospace;
   border-radius: 3px;
   color: azure;
   background-color: crimson;
   width: fit-content;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 a:hover {
   transform: scale(1.1) rotate(-5deg);
 }
 h1 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 4rem;
   margin-left: 8px
 }
 
 h2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 1rem;
   margin-top: -50px;
   margin-left: 10px
