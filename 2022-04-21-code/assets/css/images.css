@@ -4,12 +4,7 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;800&display=swap");
 
-body {
-  font-family: "Museo";
-  font-size: 10vw;
-  background-color: rgba(121, 121, 121, 0.52);
-  /*  overflow: hidden; */
-}
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -36,9 +31,36 @@ img.bull2 {
   image-orientation: 20deg;
 }
 .titel {
-  font-family: "Raleway", sans-serif;
-  margin-top: 30px;
-  position: var(100, 100);
+  /* font-family: "Museo"; */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13.5vw;
+  font-style: inherit;
+
+  text-shadow: 0px -400px 0px rgba(41, 174, 152, 0.8),0px -200px 0px rgba(41, 174, 152, 0.8),0px 200px 0px rgba(41, 174, 152, 0.8),0px 400px 0px rgba(41, 174, 152, 0.8),0px 600px 0px rgba(41, 174, 152, 0.8);
+  width: 150vw;
+  margin-left: -2.5vw;
   position: fixed;
-  text-align: right;
+  color: rgba(220, 177, 20, 0.8);
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  
+
 }
+@keyframes example{
+  16.66%  {color: rgb(255, 241, 117);}
+  33.33% {color: rgb(255, 208, 79);}
+  49.99%  {color: rgb(255, 159, 70);}
+  66.66% {color: rgb(255, 88, 55);}
+  83.33%  {color: rgb(255, 159, 70);}
+  100%  {color: rgb(255, 208, 79);}
+}
+
+/* @keyframes example{
+  0%   {color: rgb(255, 241, 117);}
+  25%  {color: rgb(255, 208, 79);}
+  50%  {color: rgb(255, 159, 70);}
+  100% {color: rgb(255, 88, 55);}
+  50%  {color: rgb(255, 159, 70);}
+  25%  {color: rgb(255, 208, 79);}
+} */
