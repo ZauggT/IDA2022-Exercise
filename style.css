@@ -14,8 +14,21 @@ a:hover {
 h1 {
   font-family: "Courier New", Courier, monospace;
   font-size: 4rem;
+  margin-left: 8px
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  margin-top: -50px;
+  margin-left: 10px
 }
 
 body {
   background-color: darkslategray;
+}
+.container{
+  display: flex;
+  align-items: left;
+  flex-direction: column;
 }
